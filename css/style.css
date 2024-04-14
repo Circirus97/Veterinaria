@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Comic Neue', cursive;
+
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg,
+      rgba(62, 207, 114, 1) 0%,
+      rgba(0, 212, 255, 1) 100%,
+      rgba(255,255,255,1) 100%);
+
+}
+
+.container{
+  background-color: rgba(255, 255, 255, 0.292);
+  border-radius: 10px;
+}
+
+
+.title {
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #fafafa;
+  text-shadow: 2px 2px 1px #000;
+}
+
+h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#confirmNamePet {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#contenedor-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
